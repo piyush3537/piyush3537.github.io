@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Piyush | AI &amp; ML Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#eef2f6; --surface:#ffffff; --ink:#14213d; --muted:#55627a; --line:#cfd8e3; --accent:#2f4bff; --accent-ink:#ffffff;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#0f1626; --surface:#18223a; --ink:#e8edf7; --muted:#9aa8c4; --line:#2a3858; --accent:#7f93ff; --accent-ink:#0f1626;}
+}
+:root[data-theme="dark"]{--bg:#0f1626; --surface:#18223a; --ink:#e8edf7; --muted:#9aa8c4; --line:#2a3858; --accent:#7f93ff; --accent-ink:#0f1626;}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 "DM Sans",system-ui,sans-serif}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:980px;margin:0 auto;padding:0 24px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 0;gap:16px;flex-wrap:wrap}
+nav b{font:800 20px "Bricolage Grotesque",sans-serif}
+nav ul{display:flex;gap:20px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
+nav a{text-decoration:none;color:var(--muted);font-weight:500}
+nav a:hover{color:var(--ink)}
+.hero{padding:72px 0 64px}
+.hero h1{font:800 clamp(52px,12vw,128px)/.92 "Bricolage Grotesque",sans-serif;margin:0 0 28px;letter-spacing:-.03em}
+.hero p{max-width:34em;font-size:clamp(18px,2.4vw,22px);color:var(--muted);margin:0 0 32px}
+.hero p strong{color:var(--ink);font-weight:700}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 22px;border-radius:10px;font-weight:700;text-decoration:none;border:2px solid var(--accent)}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.btn.ghost{color:var(--ink);border-color:var(--line)}
+.btn:hover{border-color:var(--ink)}
+section{padding:56px 0;border-top:1px solid var(--line)}
+h2{font:700 clamp(28px,4vw,40px)/1.1 "Bricolage Grotesque",sans-serif;margin:0 0 28px;letter-spacing:-.02em}
+.about{max-width:42em;font-size:19px}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.skills div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px}
+.skills h3{margin:0 0 10px;font:700 18px "Bricolage Grotesque",sans-serif}
+.skills p{margin:0;color:var(--muted)}
+.timeline{list-style:none;margin:0;padding:0 0 0 22px;border-left:3px solid var(--accent)}
+.timeline li{position:relative;padding:0 0 30px 16px}
+.timeline li::before{content:"";position:absolute;left:-31px;top:7px;width:13px;height:13px;border-radius:50%;background:var(--bg);border:3px solid var(--accent)}
+.timeline h3{margin:0;font:700 20px "Bricolage Grotesque",sans-serif}
+.timeline .when{color:var(--muted);font-size:15px}
+.timeline p{margin:6px 0 0;max-width:40em}
+.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px}
+.project{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:28px;display:flex;flex-direction:column;gap:14px}
+.project h3{margin:0;font:800 26px/1.1 "Bricolage Grotesque",sans-serif}
+.project p{margin:0}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto}
+.tags span{font-size:14px;padding:3px 10px;border-radius:99px;background:var(--bg);border:1px solid var(--line)}
+.project a{font-weight:700;color:var(--accent)}
+.edu{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:22px}
+.edu b{font:700 20px "Bricolage Grotesque",sans-serif}
+.contact p{max-width:34em;color:var(--muted)}
+footer{padding:28px 0 40px;color:var(--muted);font-size:15px;border-top:1px solid var(--line)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media (max-width:560px){.wrap{padding:0 18px}.hero{padding:44px 0 40px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav aria-label="Main">
+    <b>Piyush</b>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <h1>Piyush</h1>
+    <p><strong>AI &amp; ML developer</strong> finishing a B.Tech in Computer Science (AI &amp; ML) at GLA University in 2027. I build data and machine learning projects, and I&rsquo;m looking for a placement where I can ship real work.</p>
+    <div class="btns">
+      <a class="btn primary" href="#contact">Contact me</a>
+      <a class="btn ghost" href="#projects">See my projects</a>
+      <a class="btn ghost" href="https://github.com/piyush3537">GitHub</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p class="about">I&rsquo;m a final-year student from Agra, studying at GLA University in Mathura. I&rsquo;ve done internships in data analytics and in ML/AI, and I like turning a rough idea into a small project that works end to end. I work in Python, Java and SQL, on top of a solid base in data structures, DBMS, operating systems and OOP.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div><h3>Languages</h3><p>Python, Java (DSA), SQL</p></div>
+      <div><h3>ML and AI</h3><p>Scikit-learn, TensorFlow, Pandas, NumPy. Supervised and unsupervised learning, classification, regression, feature engineering, model tuning, ensemble learning</p></div>
+      <div><h3>Data and BI</h3><p>SQL, Python, Excel, Power BI, Tableau</p></div>
+      <div><h3>Tools</h3><p>Streamlit, Git, REST APIs</p></div><div><h3>Coursework</h3><p>Data Structures and Algorithms (Java), DBMS, Operating Systems, Machine Learning, OOP</p></div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul class="timeline">
+      <li>
+        <h3>Machine Learning &amp; AI Intern, W3Grads</h3>
+        <p>Built supervised and unsupervised learning models for classification and regression, and checked them on test data.</p>
+        <p>Handled the full ML workflow: preprocessing, feature engineering, training and evaluation, with Git for version control.</p>
+        <p>Studied deep learning and large language models, and built prototypes using Transformer-based architectures.</p>
+      </li>
+      <li>
+        <h3>Data Analytics Intern, SkillCred</h3>
+        <p>Cleaned and transformed raw data with SQL, Python and Excel, so reports were more accurate for stakeholders.</p>
+        <p>Designed interactive dashboards in Power BI and Tableau, and used LLM-based content generation and AI trend research in the deliverables.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <article class="project">
+        <h3>AI Autonomous Report Generator</h3>
+        <p>An AI-powered system that analyses structured datasets and writes human-readable reports automatically. It cuts the manual effort of report writing.</p>
+        <div class="tags"><span>Python</span><span>AI</span><span>Data analysis</span></div>
+        <a href="https://github.com/piyush3537/AI_AUTONOMOUS_REPORT-GENEREATOR">View code on GitHub</a>
+      </article>
+      <article class="project">
+        <h3>Study Snap</h3>
+        <p>An AI-powered learning platform for quick study, with organised notes and personalised help. An NLP chatbot answers student questions in real time.</p>
+        <div class="tags"><span>AI</span><span>NLP</span><span>Chatbot</span></div>
+        <a href="https://github.com/piyush3537/Study_snap_project">View code on GitHub</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="edu">
+      <div><b>B.Tech, Computer Science (AI &amp; ML)</b><br>GLA University, Mathura</div>
+      <div>Graduating 2027</div>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="skills">
+      <div><h3>Deloitte</h3><p>Data Analytics Job Simulation (Forage)</p></div>
+      <div><h3>JPMorgan</h3><p>Software Engineering Job Simulation (Forage)</p></div>
+      <div><h3>NPTEL</h3><p>Management Information Systems, E-Business and more</p></div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>I&rsquo;m open to placement and internship offers. Email me or find me on GitHub and LinkedIn.</p>
+    <div class="btns">
+      <a class="btn primary" href="mailto:piyushpamar11@gmail.com">piyushpamar11@gmail.com</a>
+      <a class="btn ghost" href="https://github.com/piyush3537">GitHub</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/piyush-kumar-614ba9275/">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer>&copy; 2026 Piyush. Based in Agra, Uttar Pradesh.</footer>
+</div>
+</body>
+</html>
